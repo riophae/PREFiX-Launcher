@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "launcher.html"
+      }
+   },
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "PREFiX 启动器, 帮助您更便捷地以窗口模式启动 PREFiX.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "512": "icons/512.png"
+   },
+   "manifest_version": 2,
+   "name": "PREFiX Launcher",
+   "permissions": [ "tabs" ],
+   "version": "0.1.0"
+}
